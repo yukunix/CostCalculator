@@ -1,0 +1,61 @@
+
+            <div class="HomeWrapper" id="Page1">
+                <div class="list">
+                    <div class="InvoiceItem" style="float: left;">
+                        <div class="item item-input item-stacked-label InvoiceField" id="InvoiceField">
+                            <span class="input-label InvoiceField">Amount</span>
+                            <input type="number" onkeypress="return isNumberKey(event)" ng-model="callculationObject.firstAmount" placeholder="0" style="margin-right: 40px;">
+                        </div>
+                        <div class="item item-input item-stacked-label InvoiceField" id="InvoiceField">
+                            <span class="input-label InvoiceField">Option - 1</span>
+                            <select  ng-change="onOption1Change()" ng-model="callculationObject.option1"  class="InvoiceDropDown">
+                                <option >D 1</option>
+                                <option >D 2</option>
+                            </select>
+                        </div>
+                        <div class="item item-input item-stacked-label InvoiceField" id="InvoiceField">
+                            <span class="input-label InvoiceField">Option - 2</span>
+                            <select ng-model="callculationObject.option2" ng-change="onOption2Change()" class="InvoiceDropDown">
+                                <option>S 1</option>
+                                <option>S 2</option>
+                            </select>
+                        </div>
+                        <div class="item item-input item-stacked-label InvoiceField-1" id="InvoiceField">
+                            <span class="input-label InvoiceField">Result - 1</span>
+                            <input value=" {{callculationObject.resultMount=parseInt(((callculationObject.firstAmount/valueOption1)/valueOption2))}}" type="number" placeholder="0" ng-readonly="true" >
+                            <div class="item item-checkbox">
+                                <label class="checkbox">
+                                    <input ng-model="callculationObject.resultMountCheckBox" type="checkbox" id="CheckBox1" onkeypress="return isNumberKey(event)">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="item item-divider Title-1" >
+                            Other
+                        </div>
+                        <div ng-repeat="amount in  amounts1" class="item item-input item-stacked-label InvoiceField-1" id="InvoiceField">
+                            <span ng-if="$index>0" class="input-label InvoiceField">{{amount.amoutName}}{{$index}}</span>
+                            <span ng-if="$index==0" class="input-label InvoiceField">{{amount.amoutName}}</span>
+                            <input ng-model="amounts1[$index].amount" type="number" onkeypress="return isNumberKey(event)" placeholder="0">
+                            <div class="item item-checkbox">
+                                <label class="checkbox">
+                                    <input ng-model="amounts1[$index].checkBox"  type="checkbox" id="CheckBox1" >
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="AddButtons">
+                        <button ng-click="addNewTicket()" class="button button-light PlusBtn">
+                            +
+                        </button>
+                        <button  ng-click="addTickedBtn()" class="button button-light AddTickedBtn">
+                            Add Ticked
+                        </button>
+                    </div>
+                    <div class="clear"></div>
+                    <button id="nextbutton" ng-click="goToNextPage()" class="button button-light NextBtn" style="min-height: 40px;">
+                        NEXT
+                    </button>
+                </div>
+            </div>
