@@ -1,0 +1,299 @@
+.Amount-4 {
+	float: right !important;
+	width: 35% !important;
+}
+.Percent_Drop_Down {
+	width: 33% !important;
+}
+ @media screen and (min-width: 768px) {
+.NextBtn {
+	display: none !important;
+}
+.HomeWrapper {
+	width: 40%;
+	float: left;
+	margin-top: 25px;
+	padding-bottom: 80px;
+	margin-left: 7%;
+}
+#backbutton {
+	display: none !important;
+}
+.SpraterV {
+	border: 1px solid #269a85;
+	margin-bottom: 15px;
+	width: 1px;
+	float: left;
+	height: 1024px;
+	position: relative;
+	left: 25px;
+}
+.InvoiceField-1 input {
+	margin-left: 67px;
+}
+.has-header {
+	margin: 0 auto;
+	max-width: 100%;
+}
+#Per-A {
+	font-size: 12px !important;
+}
+.MainContent {
+	width: 100%;
+	margin: 0 auto;
+}
+.InvoiceField {
+  font: 13px 'Helvetica';
+}
+}
+@media screen and (max-width: 1024px) {
+.InvoiceField-1 input {
+	margin-left: 103px;
+}
+#Per-A {
+	font-size: 12px !important;
+}
+}
+@media screen and (min-width: 737px) and (max-width: 767px) {
+.MainContent {
+	width: 100%;
+	margin: 0 auto;
+}
+.Sprater {
+	left: -18px;
+	width: 105%;
+}
+}
+ @media screen and (min-width: 668px) and (max-width: 736px) {
+.InvoiceField-1 input {
+	margin-left: 214px;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 13px !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 105%;
+	left: -18px;
+}
+}
+@media screen and (min-width: 641px) and (max-width: 667px) {
+.InvoiceField-1 input {
+	margin-left: 181px;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 13px !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 105%;
+	left: -16px;
+}
+}
+@media screen and (min-width: 569px) and (max-width: 640px) {
+.InvoiceField-1 input {
+	margin-left: 172px;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 13px !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 105%;
+	left: -16px;
+}
+}
+@media screen and (min-width: 567px) and (max-width: 568px) {
+#Per-A {
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 568px) {
+.InvoiceField-1 input {
+	margin-left: 148px;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 13px !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 104%;
+}
+}
+@media screen and (min-width: 415px) and (max-width: 480px) {
+.InvoiceField-1 input {
+	margin-left: 119px;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 13px !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 104%;
+}
+}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+.InvoiceField-1 input {
+	margin-left: 97px;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 13px !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 104%;
+}
+}
+ @media screen and (min-width: 361px) and (max-width: 375px) {
+.InvoiceField-1 input {
+	margin-left: 84px;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 13px !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 104%;
+}
+}
+@media screen and (min-width: 321px) and (max-width: 360px) {
+.InvoiceField-1 input {
+	margin-left: 79px;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 13px !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 107%;
+	left: -16px;
+}
+}
+@media screen and (max-width: 320px) {
+.InvoiceField-1 input {
+	margin-left: 66px;
+}
+#Amount-4 {
+	width: 30%;
+	margin-left: 15px;
+}
+.PercentDropDown {
+	width: 33%;
+	font: 13px 'Helvetica' !important;
+}
+.Percent_Drop_Down {
+	margin-left: 10px !important;
+	width: 31% !important;
+}
+.InvoiceField input.PercentageX {
+	margin-left: 37%;
+	width: 27% !important;
+}
+#Integer {
+	width: 33%;
+}
+#Page2 {
+	display: none;
+}
+#Per-A {
+	font-size: 11px !important;
+}
+.Amount-4 {
+	margin-left: 0px !important;
+	width: 33% !important;
+}
+.MainContent {
+	margin: 0 auto;
+	width: 100%;
+}
+.Sprater {
+	width: 105%;
+}
+}
+#Per-A {
+	float: left;
+}
+#Page2 .ng-pristine {
+	/*float: left;*/
+}
+#Page1 .InvoiceField-1 input[type="number"] {
+	float: right !important;
+	position: absolute !important;
+	right: 40px !important;
+}
+.scroll-content {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: scroll;
+	margin-top: -1px;
+	padding-top: 1px;
+	width: auto;
+	height: auto;
+}
+.button.button-light:hover, .AddTickedBtn:hover {
+	-webkit-transition:  5s ease;
+    -moz-transition:  5s ease;
+    -o-transition:  5s ease;
+    -ms-transition:  5s ease;    
+    transition:  5s ease;
+    background-color: #002914;
+    border-color: #ddd;
+    color: #fff;
+}
+#NetAmount {
+	font: 14px "Helvetica";
+}
+
